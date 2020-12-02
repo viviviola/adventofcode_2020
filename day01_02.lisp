@@ -29,7 +29,7 @@
         ((= (length lst) 3) (list lst))
         (t (append
             (mapcar (lambda (elt) (cons (car lst) elt)) (pairs (cdr lst)))
-            (trips (cdr lst))))))
+            (triples (cdr lst))))))
 
 ;;; As before, we can try this solution on the test data set to
 ;;; verify that everything works.
