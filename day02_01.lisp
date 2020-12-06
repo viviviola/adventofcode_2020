@@ -65,7 +65,3 @@
                            (cl-ppcre::split ": " line)))))
 
 (count-if #'valid-password-p input-data)
-
-
-
-  
